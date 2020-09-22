@@ -49,7 +49,7 @@ int main()
     while (counter >= 0)
     {
         mas[counter] = mas[counter] & 0xF;
-        mas[counter] = mas[counter] << 4;
+       
         sum += mas[counter];
         counter--;
     }
